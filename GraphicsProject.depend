@@ -39,16 +39,16 @@
 	"string"
 	"graphics.hpp"
 
-1751294888 source:c:\users\lesti\desktop\project_calc\src\calculator.cpp
+1751297298 source:c:\users\lesti\desktop\project_calc\src\calculator.cpp
 	"Calculator.hpp"
 	"graphics.hpp"
 
-1751295464 c:\users\lesti\desktop\project_calc\include\calculator.hpp
+1751297036 c:\users\lesti\desktop\project_calc\include\calculator.hpp
 	"graphics.hpp"
 	"App.hpp"
 	"Button.hpp"
 
-1751295102 source:c:\users\lesti\desktop\project_calc\main.cpp
+1751297349 source:c:\users\lesti\desktop\project_calc\main.cpp
 	"graphics.hpp"
 	"Widget.hpp"
 	"App.hpp"

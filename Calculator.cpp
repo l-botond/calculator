@@ -37,6 +37,11 @@ void Calculator::operation(State op)
             break;
         }
     }
+    else if(op == C)
+    {
+        op1 = 0;
+        op2 = 0;
+    }
     else
     {
         op1 = op2;

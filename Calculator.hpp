@@ -13,7 +13,8 @@ enum State
     MUL,
     EQ,
     OTH,
-    POW
+    POW,
+    C
 };
 
 
