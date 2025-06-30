@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1751287810 source:c:\users\lesti\desktop\project_calc\src\app.cpp
+	"App.hpp"
+
+1751287810 c:\users\lesti\desktop\project_calc\include\app.hpp
+	<vector>
+	"Widget.hpp"
+
+1751293509 c:\users\lesti\desktop\project_calc\include\widget.hpp
+	"graphics.hpp"
+
+1618178770 c:\users\lesti\desktop\project_calc\include\graphics.hpp
+	<string>
+	<vector>
+
+1751295347 source:c:\users\lesti\desktop\project_calc\src\button.cpp
+	"Button.hpp"
+	"Widget.hpp"
+	"graphics.hpp"
+
+1751293519 c:\users\lesti\desktop\project_calc\include\button.hpp
+	<Widget.hpp>
+	"functional"
+	"graphics.hpp"
+	"string"
+	"vector"
+
+1751293862 source:c:\users\lesti\desktop\project_calc\src\widget.cpp
+	"Widget.hpp"
+	"App.hpp"
+
+1751295410 source:c:\users\lesti\desktop\project_calc\src\screen.cpp
+	"Screen.hpp"
+	"graphics.hpp"
+	"Widget.hpp"
+
+1751293691 c:\users\lesti\desktop\project_calc\include\screen.hpp
+	<Widget.hpp>
+	"string"
+	"graphics.hpp"
+
+1751294888 source:c:\users\lesti\desktop\project_calc\src\calculator.cpp
+	"Calculator.hpp"
+	"graphics.hpp"
+
+1751295464 c:\users\lesti\desktop\project_calc\include\calculator.hpp
+	"graphics.hpp"
+	"App.hpp"
+	"Button.hpp"
+
+1751295102 source:c:\users\lesti\desktop\project_calc\main.cpp
+	"graphics.hpp"
+	"Widget.hpp"
+	"App.hpp"
+	"Button.hpp"
+	"Screen.hpp"
+	"Calculator.hpp"
+
