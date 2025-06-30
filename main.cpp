@@ -22,44 +22,57 @@ public:
                                        80 + 70 * (i / 3), 60, 60,
                                        to_string(i + 1),
                                        [=](){numeric(i + 1);                //[=] érték szerint átadás
-                                            update();}));
+                                            update();
+                                            }));
         }
 
             add = new Button(this,
                            230, 80, 60, 60,
                            "+",
                            [&](){operation(ADD);
-                                update();});
+                                update();
+                                });
 
             sub = new Button(this,
                            230, 150, 60, 60,
                            "-",
                            [&](){operation(SUB);
-                                update();});
+                                update();
+                                });
 
             mul = new Button(this,
                            230, 220, 60, 60,
                            "*",
                            [&](){operation(MUL);
-                                update();});
+                                update();
+                                });
 
             div = new Button(this,
                            230, 290, 60, 60,
                            "/",
                            [&](){operation(DIV);
-                                update();});
+                                update();
+                                });
 
             pow = new Button(this,
                            10, 290, 60, 60,
                            "^",
                            [&](){operation(POW);
-                                update();});
+                                update();
+                                });
 
             eq = new Button(this,
                           230, 360, 60, 60,
                           "=",
                           [&](){operation(EQ);
-                                update();});
+                                update();
+                                });
+
+            c = new Button(this, 300, 80, 60, 60,
+                           "C",
+                           [&](){operation(C);
+                                 update();
+                                 });
 
     }
 
@@ -88,7 +101,7 @@ protected:
     Screen *sc;
     vector<Button*> numbtns;
 
-    Button *add, *sub, *mul, *div, *eq, *pow;
+    Button *add, *sub, *mul, *div, *eq, *pow, *c;
 
     int op;
 };
